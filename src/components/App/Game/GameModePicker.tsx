@@ -132,7 +132,7 @@ export class GameModePicker extends React.Component<IGameModePickerProps, IGameM
       button = (
         <Link href={linkHref} as={linkAs}>
           <Button
-            data-testid={`playbutton-${this.props.gameDef.code}-${info.mode}`}
+            data-testid={`playButton-${this.props.gameDef.code}-${info.mode}`}
             component={'a'}
             variant="contained"
             color="primary"
